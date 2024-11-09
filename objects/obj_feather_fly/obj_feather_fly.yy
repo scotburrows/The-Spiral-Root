@@ -6,12 +6,17 @@
   ],
   "managed":true,
   "name":"obj_feather_fly",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gravity","path":"objects/obj_gravity/obj_gravity.yy",},"propertyId":{"name":"fall_speed","path":"objects/obj_gravity/obj_gravity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.05",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_gravity",
+    "path":"objects/obj_gravity/obj_gravity.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

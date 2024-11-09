@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Health damage
 // You can write your code in this editor
 health -= 35;
 if (health <= 0) {
