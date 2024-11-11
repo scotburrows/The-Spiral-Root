@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"The Spiral Root",
   "resources":[
@@ -39,8 +39,10 @@
     {"id":{"name":"obj_feather_fly","path":"objects/obj_feather_fly/obj_feather_fly.yy",},},
     {"id":{"name":"obj_gravity","path":"objects/obj_gravity/obj_gravity.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_swordattack_1","path":"objects/obj_swordattack_1/obj_swordattack_1.yy",},},
     {"id":{"name":"obj_tile","path":"objects/obj_tile/obj_tile.yy",},},
     {"id":{"name":"rm_game1","path":"rooms/rm_game1/rm_game1.yy",},},
+    {"id":{"name":"spr_swordattack_1","path":"sprites/spr_swordattack_1/spr_swordattack_1.yy",},},
     {"id":{"name":"spr_tempant","path":"sprites/spr_tempant/spr_tempant.yy",},},
     {"id":{"name":"spr_tempbird","path":"sprites/spr_tempbird/spr_tempbird.yy",},},
     {"id":{"name":"spr_tempegg","path":"sprites/spr_tempegg/spr_tempegg.yy",},},

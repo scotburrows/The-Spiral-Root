@@ -10,6 +10,7 @@ health = 100;
 
 enum ATTACKS {
 	EMPTY,
+	BASIC_ATTACK,
 	MILLION_STABS,
 	ASCENDING_SLASH,
 	FURIOUS_CHARGE,
@@ -21,4 +22,8 @@ enum ATTACKS {
 	PHOENIX_BURST
 }
 
+attack_state = ATTACKS.EMPTY
+
 buffered_moves = [ATTACKS.EMPTY, ATTACKS.EMPTY, ATTACKS.EMPTY];
+
+alarm_set(1, 5)
