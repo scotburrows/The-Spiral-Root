@@ -23,7 +23,7 @@ enum ATTACKS {
 }
 
 attack_state = ATTACKS.EMPTY
+buffered_moves = [ATTACKS.BASIC_ATTACK, ATTACKS.BASIC_ATTACK, ATTACKS.BASIC_ATTACK];
 
-buffered_moves = [ATTACKS.EMPTY, ATTACKS.EMPTY, ATTACKS.EMPTY];
 
 alarm_set(1, 5)
