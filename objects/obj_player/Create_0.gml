@@ -5,6 +5,8 @@ event_inherited();
 randomize();
 current_jumps = num_jumps;
 glide_time = 0;
+gliding = false;
+glide_time_remaining = glide_time;
 eggs = 0;
 health = 100;
 

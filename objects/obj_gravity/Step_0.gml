@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!place_meeting(x, y, obj_tile)) {
-	//falling = true;
+if (!place_meeting(x, y+68, obj_tile)) {
+	falling = true;
 }
 
 if (falling) {
-	vspeed += fall_speed;
+	if (vspeed < fall_speed * 100) {
+		vspeed += fall_speed;
+	}
 }
 else {
 	vspeed = 0;
