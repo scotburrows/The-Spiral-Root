@@ -9,6 +9,6 @@ if ((!falling and ((image_xscale > 0) and !instance_place(x+64, y+65, obj_tile))
 	hspeed = -hspeed;
 }
 
-if (health <= 0) {
+if (enemy_health <= 0) {
 	instance_destroy()
 }

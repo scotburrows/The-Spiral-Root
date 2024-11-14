@@ -3,26 +3,26 @@
 
 var direction_var = 0;
 if (sword_forward) {
-	direction_var = 1;
+	direction_var = (1 * initial_xscale);
 }
 else {
-	direction_var = -1;
+	direction_var = (-1 * initial_xscale);
 }
 
 sword_hrange += (obj_player.x - initial_point_x);
 initial_point_x = obj_player.x;
 
 var x_offset = sword_hrange + x
-if (x < sword_hrange && sword_forward) {
-	hspeed = 5
+if ((((initial_xscale == 1) and (x < sword_hrange)) or ((initial_xscale == -1) and (x > sword_hrange))) && sword_forward) {
+	hspeed = 5 * initial_xscale
 }
 else {
 	sword_forward = false
-	hspeed = -5
+	hspeed = -5 * initial_xscale
 }
 
 
-if (instance_exists(obj_player) && (y > obj_player.y + obj_player.sprite_height/2) || x < obj_player.x + obj_player.sprite_width/2 ){
+if (instance_exists(obj_player) && (y > obj_player.y + obj_player.sprite_height/2) || (((initial_xscale == 1) and (x < obj_player.x + obj_player.sprite_width/2)) or ((initial_xscale == -1) and (x > obj_player.x + obj_player.sprite_width/2))) ){
 	instance_destroy()
 }
 
