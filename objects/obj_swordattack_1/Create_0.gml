@@ -11,4 +11,5 @@ y = obj_player.y - 100
 
 sword_hrange = 75 + x
 sword_forward = true
-
+initial_point_x = obj_player.x;
+//initial_point_y = y;

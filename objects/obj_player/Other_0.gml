@@ -2,7 +2,8 @@
 // You can write your code in this editor
 if (y > room_height) {
 	if (room != rm_start) {
-		instance_destroy();
+		health -= 35;
+		room_restart();
 	}
 	else if (room == rm_start) {
 		room_goto(rm_game1);
