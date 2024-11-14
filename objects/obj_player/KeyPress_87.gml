@@ -3,6 +3,7 @@
 if (!falling) {
 	falling = true;
 	vspeed = -9;
+	player_movement = MOVEMENT.JUMPING
 }
 else if (current_jumps > 0) {
 	vspeed = -9;

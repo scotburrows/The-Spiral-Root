@@ -10,6 +10,18 @@ glide_time_remaining = glide_time;
 eggs = 0;
 health = 100;
 
+enum DIRECTION {
+	LEFT,
+	RIGHT
+}
+
+enum MOVEMENT{
+	MOVING_LEFT,
+	MOVING_RIGHT,
+	JUMPING,
+	NOT_MOVING
+}
+
 enum ATTACKS {
 	EMPTY,
 	BASIC_ATTACK,
@@ -25,6 +37,9 @@ enum ATTACKS {
 }
 
 attack_state = ATTACKS.EMPTY
+player_facing = DIRECTION.RIGHT
+player_movement = MOVEMENT.NOT_MOVING
+
 buffered_moves = [ATTACKS.BASIC_ATTACK, ATTACKS.BASIC_ATTACK, ATTACKS.BASIC_ATTACK];
 
 

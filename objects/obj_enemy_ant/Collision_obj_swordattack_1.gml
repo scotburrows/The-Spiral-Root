@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-hspeed = 0;
-player_movement = MOVEMENT.NOT_MOVING
+enemy_health -= other.attack_damage
+x += 20

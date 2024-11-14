@@ -8,8 +8,7 @@ x = obj_player.x + 100
 y = obj_player.y - 100
 }
 
-sword_hrange = 50 + x
+
+sword_hrange = 75 + x
 sword_forward = true
 
-//Swing Downwards
-alarm_set(0, 2);
