@@ -9,10 +9,8 @@ else {
 	direction_var = -1;
 }
 
-if (obj_player.x > initial_point_x) {
-	sword_hrange += (obj_player.x - initial_point_x);
-	initial_point_x = obj_player.x;
-}
+sword_hrange += (obj_player.x - initial_point_x);
+initial_point_x = obj_player.x;
 
 var x_offset = sword_hrange + x
 if (x < sword_hrange && sword_forward) {
@@ -35,6 +33,8 @@ else if (obj_player.player_movement = MOVEMENT.MOVING_LEFT) {
 	hspeed += obj_player.hspeed
 }
 
-if (obj_player.player_movement = MOVEMENT.JUMPING) {
-	vspeed += obj_player.vspeed
-}
+y += (obj_player.y - initial_point_y);
+initial_point_y = obj_player.y;
+//if (obj_player.player_movement = MOVEMENT.JUMPING) {
+//	vspeed += obj_player.vspeed
+//}
