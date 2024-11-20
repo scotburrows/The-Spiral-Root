@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Give jumps or glide time
 // You can write your code in this editor
 if (collectable) {
 	if (other.num_jumps < 1) { // switch value to 4 later

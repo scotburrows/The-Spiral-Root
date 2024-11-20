@@ -34,6 +34,7 @@
   },
   "name":"The Spiral Root",
   "resources":[
+    {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
     {"id":{"name":"obj_egg","path":"objects/obj_egg/obj_egg.yy",},},
     {"id":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},},
     {"id":{"name":"obj_feather_fly","path":"objects/obj_feather_fly/obj_feather_fly.yy",},},

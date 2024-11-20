@@ -1,14 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var direction_var = 0;
-if (sword_forward) {
-	direction_var = (1 * initial_xscale);
-}
-else {
-	direction_var = (-1 * initial_xscale);
-}
-
 sword_hrange += (obj_player.x - initial_point_x);
 initial_point_x = obj_player.x;
 
