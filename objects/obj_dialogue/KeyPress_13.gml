@@ -3,6 +3,7 @@
 if (drawing) {
 	drawing = false;
 	characters_displayed = string_length(current_line);
+	alarm_set(1, 35);
 }
 else if (num_lines > 1) {
 	num_lines--;
@@ -15,7 +16,7 @@ else if (num_lines > 1) {
 	}
 	characters_displayed = 0;
 	current_string = "";
-	alarm_set(0, 5);
+	alarm_set(0, 3);
 }
 else {
 	instance_destroy();

@@ -6,4 +6,5 @@ if (instance_exists(obj_gravity)) {
 }
 current_line = line1;
 current_string = "";
-alarm_set(0, 5);
+alarm_set(0, 3);
+flicker = true;

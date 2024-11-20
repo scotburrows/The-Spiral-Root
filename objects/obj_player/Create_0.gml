@@ -42,5 +42,7 @@ player_movement = MOVEMENT.NOT_MOVING
 
 buffered_moves = [ATTACKS.BASIC_ATTACK, ATTACKS.BASIC_ATTACK, ATTACKS.BASIC_ATTACK];
 
+prev_hspeed = 0;
+prev_vspeed = 0;
 
 alarm_set(1, 5)
