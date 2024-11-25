@@ -9,6 +9,7 @@ gliding = false;
 glide_time_remaining = glide_time;
 eggs = 0;
 health = 100;
+can_eat = true; // change to false
 
 enum DIRECTION {
 	LEFT,
