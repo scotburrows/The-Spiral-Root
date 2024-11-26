@@ -10,6 +10,9 @@ glide_time_remaining = glide_time;
 eggs = 0;
 health = 100;
 can_eat = true; // change to false
+magic_charge = 0
+charge_display = false
+
 
 enum DIRECTION {
 	LEFT,
