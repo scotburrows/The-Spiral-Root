@@ -3,6 +3,9 @@
 if (y > room_height) {
 	if (room != rm_start) {
 		health -= 35;
+		if (health <= 0) {
+			instance_destroy();
+		}
 		room_restart();
 	}
 	else if (room == rm_start) {
