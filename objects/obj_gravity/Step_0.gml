@@ -1,16 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (can_move) {
-	if (!place_meeting(x, y+68, obj_tile)) {
-		falling = true;
-	}
-
 	if (falling) {
-		if (vspeed < fall_speed * 100) {
+		if (vspeed < fall_speed * 70) {
 			vspeed += fall_speed;
 		}
 	}
-	else {
+	
+	if (!instance_place(x, y+1, obj_tile)) {
+		falling = true;
+	}
+	else if (falling) {
+		vspeed = 0;
+		falling = false;
+	}
+	
+	if (instance_place(x, y-1, obj_tile)) {
+		y -= vspeed;
 		vspeed = 0;
 	}
 }

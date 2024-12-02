@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-other.falling = false;
+other.vspeed = 0;

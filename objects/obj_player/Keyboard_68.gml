@@ -9,4 +9,7 @@ if (can_move) {
 	if (keyboard_check(ord("A"))) {
 		hspeed = 0;
 	}
+	if (instance_place(x+hspeed, y, obj_tile)) {
+		hspeed = 0;
+	}
 }

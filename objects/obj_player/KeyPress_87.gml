@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if (can_move) {
 	if (!falling) {
+		y -= 9;
 		falling = true;
 		vspeed = -9;
 		player_movement = MOVEMENT.JUMPING
