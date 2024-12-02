@@ -9,8 +9,8 @@
   "name":"obj_tile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Level Elements",
+    "path":"folders/Objects/Level Elements.yy",
   },
   "parentObjectId":null,
   "persistent":false,

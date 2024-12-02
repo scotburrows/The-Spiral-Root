@@ -9,8 +9,8 @@
   "name":"obj_swordattack_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Attacks",
+    "path":"folders/Objects/Attacks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
