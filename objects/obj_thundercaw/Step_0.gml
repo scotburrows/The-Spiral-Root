@@ -9,7 +9,7 @@ if (object_exists(obj_player))
 	y = obj_player.y
 }
 
-if (image_xscale >= 17.5)
+if (image_xscale >= 25)
 {
 	instance_destroy()
 }
