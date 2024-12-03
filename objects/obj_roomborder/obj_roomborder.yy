@@ -1,0 +1,42 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_roomborder",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_roomborder",
+  "overriddenProperties":[],
+  "parent":{
+    "name":"Level Elements",
+    "path":"folders/Objects/Level Elements.yy",
+  },
+  "parentObjectId":null,
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"room_togo","filters":[
+        "GMRoom",
+      ],"listItems":[],"multiselect":false,"name":"room_togo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_start","varType":5,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"spr_border",
+    "path":"sprites/spr_border/spr_border.yy",
+  },
+  "spriteMaskId":null,
+  "visible":false,
+}

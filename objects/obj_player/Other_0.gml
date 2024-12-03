@@ -2,16 +2,15 @@
 // You can write your code in this editor
 if (y > room_height) {
 	if (room != rm_start) {
-		health -= 35;
-		if (health <= 0) {
-			instance_destroy();
+		if (room != rm_tutorial1) {
+			health -= 35;
+			if (health <= 0) {
+				instance_destroy();
+			}
 		}
 		room_restart();
 	}
-	else if (room == rm_start) {
-		room_goto(rm_game1);
-	}
 }
-else if (x > room_width) {
-	room_goto(rm_end);
+if (instance_place(x, y, obj_roomborder)) {
+	room_goto(instance_nearest(x, y, obj_roomborder).room_togo);
 }
