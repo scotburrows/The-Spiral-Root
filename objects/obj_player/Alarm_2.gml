@@ -10,7 +10,21 @@ if (attack_state = ATTACKS.ICE_LANCE){
 			can_move = true
 		}
 	else{
-		
+		alarm_set(2, 1)
+	}
+}
+else if (attack_state = ATTACKS.WINDBLADE)
+{
+	can_move = false
+	magic_charge = magic_charge + 2
+	if (magic_charge >= 100)
+	{
+		instance_create_layer(x+sprite_width, y, "Instances", obj_windblade)
+		magic_charge = 0
+		charge_display = false
+		can_move = true
+	}
+	else{
 		alarm_set(2, 1)
 	}
 }

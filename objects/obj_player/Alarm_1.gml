@@ -11,6 +11,10 @@ if (array_length(buffered_moves) > 0) {
 		charge_display = true
 		alarm_set(2, 1)
 	}
+	else if (attack_state == ATTACKS.WINDBLADE) {
+		charge_display = true
+		alarm_set(2, 1)
+	}
 	else if (attack_state == ATTACKS.THUNDERCAW) {
 		charge_display = true
 		alarm_set(2, 1)
