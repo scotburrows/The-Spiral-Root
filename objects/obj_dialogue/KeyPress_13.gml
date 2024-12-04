@@ -11,8 +11,23 @@ else if (num_lines > 1) {
 	if (current_line == line1) {
 		current_line = line2;
 	}
-	else {
+	else if (current_line == line2) {
 		current_line = line3;
+	}
+	else if (current_line == line3) {
+		current_line = line4;
+	}
+	else if (current_line == line4) {
+		current_line = line5;
+	}
+	else if (current_line == line5) {
+		current_line = line6;
+	}
+	else if (current_line == line6) {
+		current_line = line7;
+	}
+	else {
+		current_line = line8;
 	}
 	characters_displayed = 0;
 	current_string = "";

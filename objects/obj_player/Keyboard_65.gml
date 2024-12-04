@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (can_move) {
 	image_xscale = -1;
-	hspeed = -6;
+	hspeed = -move_speed;
 	player_facing = DIRECTION.LEFT
 	player_movement = MOVEMENT.MOVING_LEFT
 

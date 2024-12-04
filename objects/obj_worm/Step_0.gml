@@ -1,0 +1,31 @@
+/// @description Turns around
+// You can write your code in this editor
+
+// Inherit the parent event
+event_inherited();
+
+if (collision_circle(x, y, 300, obj_player, false, true)) {
+	running_away = true;
+	if (obj_player.x <= x) {
+		image_xscale = abs(image_xscale);
+	}
+	else {
+		image_xscale = -abs(image_xscale);
+	}
+	hspeed = move_speed * 2 * image_xscale;
+}
+
+if ((!running_away and !falling and ((image_xscale > 0) and !instance_place(x+64, y+65, obj_tile)) or ((image_xscale < 0) and !instance_place(x-64, y+65, obj_tile)))) {
+	image_xscale = -image_xscale;
+	hspeed = -hspeed;
+}
+
+//if ((!falling and instance_place(x+hspeed, y, obj_tile))) {
+//	if (!running_away) {
+//		image_xscale = -image_xscale;
+//		hspeed = -hspeed;
+//	}
+//	else {
+//		hspeed = 0;
+//	}
+//}

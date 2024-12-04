@@ -45,7 +45,7 @@ attack_state = ATTACKS.EMPTY
 player_facing = DIRECTION.RIGHT
 player_movement = MOVEMENT.NOT_MOVING
 
-buffered_moves = [ATTACKS.BASIC_ATTACK, ATTACKS.BASIC_ATTACK, ATTACKS.BASIC_ATTACK];
+buffered_moves = [ATTACKS.EMPTY, ATTACKS.EMPTY, ATTACKS.EMPTY];
 
 prev_hspeed = 0;
 prev_vspeed = 0;
