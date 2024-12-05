@@ -19,7 +19,7 @@ else if (attack_state = ATTACKS.WINDBLADE)
 	magic_charge = magic_charge + 2
 	if (magic_charge >= 100)
 	{
-		instance_create_layer(x+sprite_width, y, "Instances", obj_windblade)
+		instance_create_layer(x+sprite_width, y+sprite_height, "Instances", obj_windblade)
 		magic_charge = 0
 		charge_display = false
 		can_move = true

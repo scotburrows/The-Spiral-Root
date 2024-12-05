@@ -7,6 +7,18 @@ if (instance_exists(obj_player)) {
 	vspeed = .5
 	image_xscale = 2
 	image_yscale = 1.5
+	if(obj_player.player_facing == DIRECTION.RIGHT){
+		windblade_distance = 150
+		windblade_direction = -50
+		right_windblade = true
+	}
+	else
+	{
+		image_yscale = image_yscale * -1
+		windblade_distance = 150
+		windblade_direction = 300
+		right_windblade = false
+	}
 	
 	
 	
