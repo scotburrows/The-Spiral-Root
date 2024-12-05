@@ -12,6 +12,13 @@ can_eat = false; // change to false
 magic_charge = 0
 charge_display = false
 
+instance_create_layer(x-sprite_xoffset, y-sprite_height, "Instances", obj_swordattack_1)
+sword_rotation_distance = 0
+sword_rotation_direction = 0
+right_sword_swing = true
+
+
+
 
 enum DIRECTION {
 	LEFT,

@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"The Spiral Root",
   "resources":[
@@ -81,7 +81,6 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_border","path":"sprites/spr_border/spr_border.yy",},},
     {"id":{"name":"spr_desaturated_tileset","path":"sprites/spr_desaturated_tileset/spr_desaturated_tileset.yy",},},
-    {"id":{"name":"spr_swordattack_1","path":"sprites/spr_swordattack_1/spr_swordattack_1.yy",},},
     {"id":{"name":"spr_temp_phoenixburst","path":"sprites/spr_temp_phoenixburst/spr_temp_phoenixburst.yy",},},
     {"id":{"name":"spr_tempant","path":"sprites/spr_tempant/spr_tempant.yy",},},
     {"id":{"name":"spr_tempbird","path":"sprites/spr_tempbird/spr_tempbird.yy",},},
@@ -89,6 +88,7 @@
     {"id":{"name":"spr_tempfeather","path":"sprites/spr_tempfeather/spr_tempfeather.yy",},},
     {"id":{"name":"spr_tempicelance","path":"sprites/spr_tempicelance/spr_tempicelance.yy",},},
     {"id":{"name":"spr_tempnpc","path":"sprites/spr_tempnpc/spr_tempnpc.yy",},},
+    {"id":{"name":"spr_tempsword","path":"sprites/spr_tempsword/spr_tempsword.yy",},},
     {"id":{"name":"spr_tempthundercaw","path":"sprites/spr_tempthundercaw/spr_tempthundercaw.yy",},},
     {"id":{"name":"spr_tempwindblade","path":"sprites/spr_tempwindblade/spr_tempwindblade.yy",},},
     {"id":{"name":"spr_tempworm","path":"sprites/spr_tempworm/spr_tempworm.yy",},},

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_swordattack_1",
-    "path":"sprites/spr_swordattack_1/spr_swordattack_1.yy",
+    "name":"spr_tempsword",
+    "path":"sprites/spr_tempsword/spr_tempsword.yy",
   },
   "spriteMaskId":null,
   "visible":true,
