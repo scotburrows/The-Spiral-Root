@@ -41,4 +41,17 @@ else if (attack_state = ATTACKS.THUNDERCAW){
 		alarm_set(2, 1)
 	}
 }
+else if (attack_state = ATTACKS.PHOENIX_BURST){
+	can_move = false
+	magic_charge = magic_charge + 1
+	if (magic_charge >= 100){
+			can_move = true
+			instance_create_layer(x, y, "Instances", obj_phoenixburst)
+			magic_charge = 0
+			charge_display = false
+		}
+	else{
+		alarm_set(2, 1)
+	}
+}
 

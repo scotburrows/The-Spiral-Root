@@ -19,6 +19,10 @@ if (array_length(buffered_moves) > 0) {
 		charge_display = true
 		alarm_set(2, 1)
 	}
+	else if (attack_state == ATTACKS.PHOENIX_BURST) {
+		charge_display = true
+		alarm_set(2, 1)
+	}
 	
 	
 }

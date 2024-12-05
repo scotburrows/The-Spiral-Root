@@ -1,16 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (can_be_hit) {
-	if (downed) {
-		instance_destroy();
-	}
+ if (hit_refreshed == true) {
 	
-	enemy_health -= other.attack_damage
 	var damage_text = instance_create_layer(x,y,"Instances", obj_damagedisplay);
-	damage_text.text = other.attack_damage
+	damage_text.text = attack_damage
 	var dir = point_direction(other.x, other.y, x, y);
-	x += lengthdir_x(30, dir);
-	
-
-}
-
+	other.x += lengthdir_x(30, dir);
+	hit_refreshed = false
+	time_between_hits = 0
+ }

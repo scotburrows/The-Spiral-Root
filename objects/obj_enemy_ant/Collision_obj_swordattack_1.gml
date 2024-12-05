@@ -6,6 +6,8 @@ if (can_be_hit) {
 	}
 	
 	enemy_health -= other.attack_damage
+	var damage_text = instance_create_layer(x,y,"Instances", obj_damagedisplay);
+	damage_text.text = other.attack_damage
 	hspeed = (4 * other.initial_xscale);
 	can_be_hit = false;
 	alarm_set(0, 30);
