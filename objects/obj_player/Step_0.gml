@@ -27,3 +27,7 @@ else {
 		prev_vspeed = 0;
 	}
 }
+
+if (!instance_place(x, y, obj_roomborder)) {
+	global.switching_room = false;
+}

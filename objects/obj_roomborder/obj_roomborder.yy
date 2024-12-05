@@ -29,6 +29,8 @@
     {"$GMObjectProperty":"v1","%Name":"room_togo","filters":[
         "GMRoom",
       ],"listItems":[],"multiselect":false,"name":"room_togo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_start","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"x_togo","filters":[],"listItems":[],"multiselect":false,"name":"x_togo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"y_togo","filters":[],"listItems":[],"multiselect":false,"name":"y_togo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

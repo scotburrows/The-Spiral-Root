@@ -12,10 +12,10 @@ if (collision_circle(x, y, 300, obj_player, false, true)) {
 	else {
 		image_xscale = -abs(image_xscale);
 	}
-	hspeed = move_speed * 2 * image_xscale;
+	hspeed = move_speed * run_speed * image_xscale;
 }
 
-if ((!running_away and !falling and ((image_xscale > 0) and !instance_place(x+64, y+65, obj_tile)) or ((image_xscale < 0) and !instance_place(x-64, y+65, obj_tile)))) {
+if ((!running_away and !falling and (!instance_place(x+(64*image_xscale), y+65, obj_tile)))) {
 	image_xscale = -image_xscale;
 	hspeed = -hspeed;
 }

@@ -2,13 +2,13 @@
 // You can write your code in this editor
 if (can_move) {
 	if (!falling) {
-		y -= 9;
+		y -= 10;
 		falling = true;
-		vspeed = -9;
+		vspeed = -10;
 		player_movement = MOVEMENT.JUMPING
 	}
 	else if (current_jumps > 0) {
-		vspeed = -9;
+		vspeed = -10;
 		current_jumps--;
 	}
 	else if (glide_time > 0) {
