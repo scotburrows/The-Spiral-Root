@@ -9,12 +9,16 @@ resting_pointy = obj_player.y - 64
 attacking_pointx = obj_player.x + 64
 attacking_pointy = obj_player.y - 64
 
-
+sword_distance = 150
+sword_direction = -50
+right_sword = true
 
 bob_max_height = resting_pointy - 3
 bob_min_height = resting_pointy + 3
 
-sword_attacking = false;
+sword_attacking = false
+
+in_attack_position = false
 
 follow_speed = 0
 
