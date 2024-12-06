@@ -3,6 +3,7 @@
   "%Name":"obj_roomborder",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_roomborder",
@@ -31,6 +32,7 @@
       ],"listItems":[],"multiselect":false,"name":"room_togo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_start","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"x_togo","filters":[],"listItems":[],"multiselect":false,"name":"x_togo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"y_togo","filters":[],"listItems":[],"multiselect":false,"name":"y_togo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"is_jumping","filters":[],"listItems":[],"multiselect":false,"name":"is_jumping","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -82,6 +82,7 @@
     {"id":{"name":"rm_game2","path":"rooms/rm_game2/rm_game2.yy",},},
     {"id":{"name":"rm_spiders_egg","path":"rooms/rm_spiders_egg/rm_spiders_egg.yy",},},
     {"id":{"name":"rm_spiders1","path":"rooms/rm_spiders1/rm_spiders1.yy",},},
+    {"id":{"name":"rm_spiders2","path":"rooms/rm_spiders2/rm_spiders2.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"rm_tutorial1","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},},
     {"id":{"name":"scr_damageprint","path":"scripts/scr_damageprint/scr_damageprint.yy",},},
@@ -121,6 +122,7 @@
     {"roomId":{"name":"rm_game2","path":"rooms/rm_game2/rm_game2.yy",},},
     {"roomId":{"name":"rm_spiders1","path":"rooms/rm_spiders1/rm_spiders1.yy",},},
     {"roomId":{"name":"rm_spiders_egg","path":"rooms/rm_spiders_egg/rm_spiders_egg.yy",},},
+    {"roomId":{"name":"rm_spiders2","path":"rooms/rm_spiders2/rm_spiders2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

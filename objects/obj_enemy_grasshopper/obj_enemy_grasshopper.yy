@@ -8,7 +8,9 @@
   ],
   "managed":true,
   "name":"obj_enemy_grasshopper",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gravity","path":"objects/obj_gravity/obj_gravity.yy",},"propertyId":{"name":"fall_speed","path":"objects/obj_gravity/obj_gravity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Characters/Enemies.yy",
