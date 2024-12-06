@@ -80,3 +80,7 @@ global.health_upgrade2 = false;
 global.talked_to_egg_bird = false;
 global.cloaking_unlocked = true;
 global.cloaked = false;
+
+global.has_windblade = false;
+global.has_phoenixburst = false;
+global.has_thundercaw = false;

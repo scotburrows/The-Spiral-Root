@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_wasps_entrance",
+  "%Name":"obj_npc_move_phoenix",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc_wasps_entrance",
+  "name":"obj_npc_move_phoenix",
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempnpc",
-    "path":"sprites/spr_tempnpc/spr_tempnpc.yy",
+    "name":"spr_tempnpc_moves",
+    "path":"sprites/spr_tempnpc_moves/spr_tempnpc_moves.yy",
   },
   "spriteMaskId":null,
   "visible":true,
