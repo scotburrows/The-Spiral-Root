@@ -1,4 +1,4 @@
-/// @description Turns around
+/// @description Runs away
 // You can write your code in this editor
 
 // Inherit the parent event

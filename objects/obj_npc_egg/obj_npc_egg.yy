@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_game_egg",
+  "%Name":"obj_npc_egg",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc_game_egg",
+  "name":"obj_npc_egg",
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempnpc",
-    "path":"sprites/spr_tempnpc/spr_tempnpc.yy",
+    "name":"spr_tempnpc_egg",
+    "path":"sprites/spr_tempnpc_egg/spr_tempnpc_egg.yy",
   },
   "spriteMaskId":null,
   "visible":true,
