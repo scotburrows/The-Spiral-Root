@@ -14,6 +14,7 @@ if (health > 0) {
 		}
 	}
 }
-//draw_text(x+100, y-400, "Falling:"+string(falling));
-//draw_text(x+100, y-350, "Vspeed:"+string(vspeed));
-//draw_text(x+100, y-300, "Collision:"+string(instance_place(x, y+1, obj_tile)));
+draw_text(x+100, y-500, "Cloaking:"+string(global.cloaking_unlocked));
+draw_text(x+100, y-400, "Cloaked:"+string(global.cloaked));
+draw_text(x+100, y-300, "Can Cloak:"+string(can_cloak));
+draw_text(x+100, y-200, "Alarm:"+string(alarm_get(4)));

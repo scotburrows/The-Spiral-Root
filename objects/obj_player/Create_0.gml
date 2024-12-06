@@ -12,6 +12,8 @@ can_eat = false; // change to false
 magic_charge = 0
 charge_display = false
 lives = 3;
+global.cloaked = false;
+can_cloak = true;
 
 instance_create_layer(x-sprite_xoffset, y-sprite_height, "Instances", obj_swordattack_1)
 sword_rotation_distance = 0
@@ -75,7 +77,7 @@ global.health_upgrade1 = false;
 global.speed_upgrade2 = false;
 global.health_upgrade2 = false;
 global.talked_to_egg_bird = false;
-global.final_egg = false;
+global.cloaking_unlocked = true;
 max_health = 100;
 
 global.has_gworm1 = false;
