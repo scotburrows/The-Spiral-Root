@@ -75,6 +75,7 @@ global.health_upgrade1 = false;
 global.speed_upgrade2 = false;
 global.health_upgrade2 = false;
 global.talked_to_egg_bird = false;
+global.final_egg = false;
 max_health = 100;
 
 global.has_gworm1 = false;

@@ -35,8 +35,12 @@ if (keyboard_check(vk_enter) and can_speak) {
 		}
 		else {
 			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 5, line1: "Greetings, adventurer!", line2: "I see you have brought me my final egg!", line3: "I thank you greatly for your generosity.", line4: "Unfortunately, I have no more to give you.", line5: "Welp! Time to chow down!"});
+			global.final_egg = true;
 			global.num_eggs--;
 		}
+	}
+	else if (global.final_egg) {
+		instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 2, line1: "Greetings, adventurer!", line2: "Thank you once more for bringing those eggs to me!"});
 	}
 	else {
 		instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 3, line1: "Greetings, adventurer!", line2: "I see you have no eggs for me!", line3: "Please return when you do!"});
