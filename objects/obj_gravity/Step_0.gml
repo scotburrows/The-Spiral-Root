@@ -20,3 +20,7 @@ if (can_move) {
 		vspeed = 0;
 	}
 }
+else {
+	hspeed = 0;
+	vspeed = 0;
+}

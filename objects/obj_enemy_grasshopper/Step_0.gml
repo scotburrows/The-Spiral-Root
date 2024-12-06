@@ -22,6 +22,10 @@ if (can_move) {
 		vspeed = 0;
 	}
 }
+else {
+	hspeed = 0;
+	vspeed = 0;
+}
 
 if (!falling) {
 	hspeed = 0;

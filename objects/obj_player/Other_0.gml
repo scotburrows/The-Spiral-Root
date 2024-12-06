@@ -12,13 +12,13 @@ if (instance_place(x, y, obj_roomborder)) {
 }
 else if (y > room_height) {
 	if (room != rm_start) {
-		if (room != rm_tutorial1) {
-			health -= 35;
-			if (health <= 0) {
-				instance_destroy();
-			}
+		health -= 35;
+		if (health <= 0) {
+			instance_create_layer(x, y, "Instances", obj_gameover);
 		}
-		room_restart();
+		else {
+			room_restart();
+		}
 	}
 }
 else {

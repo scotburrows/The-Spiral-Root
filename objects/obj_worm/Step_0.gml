@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (!digging_away) {
+if (!digging_away and can_move) {
 	if (collision_circle(x, y, 300, obj_player, false, true)) {
 		running_away = true;
 		if (obj_player.x <= x) {
@@ -21,7 +21,7 @@ if (!digging_away) {
 		hspeed = -hspeed;
 	}
 }
-else {
+else if (can_move) {
 	hspeed = run_speed / 1.5;
 }
 

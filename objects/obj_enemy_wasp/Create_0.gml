@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 hspeed = 0;
-time = 0;
+hover = 0;
 initial_x = x;
 initial_y = y;
 seen_player = false;

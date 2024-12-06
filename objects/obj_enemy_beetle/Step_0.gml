@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (!downed) {
+if (!downed and can_move) {
 	if (collision_circle(x, y, 500, obj_player, false, true) and !falling and can_chase) {
 		if (obj_player.x <= x) {
 			image_xscale = -abs(image_xscale);

@@ -8,7 +8,7 @@ if (enemy_health < 50 or collision_ellipse(x+400, y+100, x-400, y+1050, obj_play
 	asleep = false;
 }
 
-if (!downed) {
+if (!downed and can_move) {
 	if (asleep) {
 		hspeed = 0;
 		vspeed = 0;

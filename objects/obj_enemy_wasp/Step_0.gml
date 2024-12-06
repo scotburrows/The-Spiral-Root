@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (!downed) {
-	y += sin(time++ * 0.05);
+if (!downed and can_move) {
+	y += sin(hover++ * 0.05);
 
 	if (collision_circle(x, y, 500, obj_player, false, true)) {
 		seen_player = true;

@@ -11,6 +11,7 @@ health = 100;
 can_eat = false; // change to false
 magic_charge = 0
 charge_display = false
+lives = 3;
 
 instance_create_layer(x-sprite_xoffset, y-sprite_height, "Instances", obj_swordattack_1)
 sword_rotation_distance = 0
