@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"The Spiral Root",
   "resources":[
@@ -50,6 +50,7 @@
     {"id":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},},
     {"id":{"name":"obj_enemy_beetle","path":"objects/obj_enemy_beetle/obj_enemy_beetle.yy",},},
     {"id":{"name":"obj_enemy_grasshopper","path":"objects/obj_enemy_grasshopper/obj_enemy_grasshopper.yy",},},
+    {"id":{"name":"obj_enemy_kingbeetle","path":"objects/obj_enemy_kingbeetle/obj_enemy_kingbeetle.yy",},},
     {"id":{"name":"obj_enemy_spider","path":"objects/obj_enemy_spider/obj_enemy_spider.yy",},},
     {"id":{"name":"obj_enemy_wasp","path":"objects/obj_enemy_wasp/obj_enemy_wasp.yy",},},
     {"id":{"name":"obj_feather_fly","path":"objects/obj_feather_fly/obj_feather_fly.yy",},},
@@ -124,6 +125,7 @@
     {"id":{"name":"spr_tempfeather","path":"sprites/spr_tempfeather/spr_tempfeather.yy",},},
     {"id":{"name":"spr_tempgrasshopper","path":"sprites/spr_tempgrasshopper/spr_tempgrasshopper.yy",},},
     {"id":{"name":"spr_tempicelance","path":"sprites/spr_tempicelance/spr_tempicelance.yy",},},
+    {"id":{"name":"spr_tempkingbeetle","path":"sprites/spr_tempkingbeetle/spr_tempkingbeetle.yy",},},
     {"id":{"name":"spr_tempnpc_egg","path":"sprites/spr_tempnpc_egg/spr_tempnpc_egg.yy",},},
     {"id":{"name":"spr_tempnpc_moves","path":"sprites/spr_tempnpc_moves/spr_tempnpc_moves.yy",},},
     {"id":{"name":"spr_tempnpc","path":"sprites/spr_tempnpc/spr_tempnpc.yy",},},
