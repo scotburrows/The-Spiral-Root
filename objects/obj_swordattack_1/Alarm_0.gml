@@ -7,8 +7,6 @@ if (right_sword == true) {
 	x = obj_player.x + sword_distance*dcos(sword_direction)
 	y = obj_player.y + sword_distance*dsin(sword_direction);
 
-	image_angle = point_direction(x, y, obj_player.x, obj_player.y)
-
 	if (sword_direction >= 180)
 	{
 		sword_attacking = false
@@ -21,8 +19,6 @@ else {
 
 	x = obj_player.x + sword_distance*dcos(sword_direction)
 	y = obj_player.y + sword_distance*dsin(sword_direction);
-
-	image_angle = point_direction(x, y, obj_player.x, obj_player.y)
 
 	if (sword_direction <= 90)
 	{

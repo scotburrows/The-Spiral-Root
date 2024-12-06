@@ -1,30 +1,34 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (obj_player.player_facing = DIRECTION.RIGHT) {
-	resting_pointx = obj_player.x - 64
-	resting_pointy = obj_player.y - 64
+if (sword_attacking = false) {
+	if (obj_player.player_facing = DIRECTION.RIGHT) {
+		resting_pointx = obj_player.x - 64
+		resting_pointy = obj_player.y - 64
 	
-	attacking_pointx = obj_player.x + 64
-	attacking_pointy = obj_player.y - 64
+		attacking_pointx = obj_player.x + 64
+		attacking_pointy = obj_player.y - 64
 	
-	sword_distance = 100
-	sword_direction = -50
-	right_sword = true
-}
-else {
-	resting_pointx = obj_player.x + 64
-	resting_pointy = obj_player.y - 64
+		sword_distance = 100
+		sword_direction = -50
+		right_sword = true
+	}
+	else {
+		resting_pointx = obj_player.x + 64
+		resting_pointy = obj_player.y - 64
 	
-	attacking_pointx = obj_player.x - 64
-	attacking_pointy = obj_player.y - 64
+		attacking_pointx = obj_player.x - 64
+		attacking_pointy = obj_player.y - 64
 	
-	sword_distance = 100
-	sword_direction = 300
-	right_sword = false
+		sword_distance = 100
+		sword_direction = 300
+		right_sword = false
+	}
 }
 
 bob_max_height = resting_pointy - 3
 bob_min_height = resting_pointy + 3
+
+
 
 if (distance_to_point(resting_pointx, resting_pointy) > 10 && sword_attacking == false)
 {
@@ -41,9 +45,10 @@ if (distance_to_point(resting_pointx, resting_pointy) > 10 && sword_attacking ==
 	}
 		follow_speed = 0; 
 }
-	
+
 
 if (obj_player.attack_state = ATTACKS.BASIC_ATTACK && in_attack_position == false) {
+	
 	if (distance_to_point(attacking_pointx, attacking_pointy) > 5) {
 		direction = point_direction(x, y, attacking_pointx, attacking_pointy)
 		speed = 5

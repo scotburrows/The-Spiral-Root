@@ -5,7 +5,6 @@ if (array_length(buffered_moves) > 0) {
 	attack_state = array_pop(buffered_moves)
 	if (attack_state == ATTACKS.BASIC_ATTACK)
 	{
-		alarm_set(3,1)
 		/*
 		if(obj_player.player_facing == DIRECTION.RIGHT){	
 			sword_rotation_distance = 150
