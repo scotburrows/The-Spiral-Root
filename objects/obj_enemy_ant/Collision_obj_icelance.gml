@@ -11,4 +11,12 @@ if (can_be_hit) {
 	damage_text.text = other.attack_damage
 	x += lengthdir_x(15, dir);
 	instance_destroy(other)
+	can_be_hit = false;
+	alarm_set(0, 30);
+	
+	if (enemy_health <= 0 and !downed) {
+		downed = true;
+		image_yscale = -1 * abs(image_yscale);
+		alarm_set(1, 60 * down_time);
+	}
 }

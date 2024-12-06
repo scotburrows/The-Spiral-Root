@@ -10,5 +10,13 @@ if (can_be_hit) {
 	var damage_text = instance_create_layer(x,y,"Instances", obj_damagedisplay);
 	damage_text.text = other.attack_damage
 	x += lengthdir_x(30, dir);
-
+	
+	can_be_hit = false;
+	alarm_set(0, 30);
+	
+	if (enemy_health <= 0 and !downed) {
+		downed = true;
+		image_yscale = -1 * abs(image_yscale);
+		alarm_set(1, 60 * down_time);
+	}
 }

@@ -4,6 +4,13 @@
 // Inherit the parent event
 event_inherited();
 
+if (!instance_exists(obj_swordattack_1)) {
+	instance_create_layer(x-sprite_xoffset, y-sprite_height, "Instances", obj_swordattack_1)
+	sword_rotation_distance = 0
+	sword_rotation_direction = 0
+	right_sword_swing = true
+}
+
 if (!falling) {
 	current_jumps = num_jumps;
 	glide_time_remaining = glide_time;

@@ -11,6 +11,14 @@ if (can_be_hit) {
 	var dir = point_direction(other.x, other.y, x, y);
 	x += lengthdir_x(30, dir);
 	
+	can_be_hit = false;
+	alarm_set(0, 30);
+	
+	if (enemy_health <= 0 and !downed) {
+		downed = true;
+		image_yscale = -1 * abs(image_yscale);
+		alarm_set(1, 60 * down_time);
+	}
 
 }
 

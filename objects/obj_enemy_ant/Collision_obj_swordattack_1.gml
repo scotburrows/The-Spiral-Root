@@ -1,6 +1,8 @@
 /// @description Damage
 // You can write your code in this editor
-if (can_be_hit) {
+if (other.sword_attacking = true)
+{
+	if (can_be_hit) {
 	if (downed) {
 		instance_destroy();
 	}
@@ -17,4 +19,5 @@ if (can_be_hit) {
 		image_yscale = -1 * abs(image_yscale);
 		alarm_set(1, 60 * down_time);
 	}
+}	
 }

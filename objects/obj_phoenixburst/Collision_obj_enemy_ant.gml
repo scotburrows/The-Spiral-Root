@@ -14,4 +14,9 @@
 	
 	hit_refreshed = false
 	time_between_hits = 0
+	
+	other.can_be_hit = false;
+	
+	
+	
  }
