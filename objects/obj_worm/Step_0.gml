@@ -5,7 +5,7 @@
 event_inherited();
 
 if (!digging_away and can_move) {
-	if (collision_circle(x, y, 300, obj_player, false, true)) {
+	if (collision_ellipse(x-300, y-200, x+300, y+200, obj_player, false, true)) {
 		running_away = true;
 		if (obj_player.x <= x) {
 			image_xscale = abs(image_xscale);

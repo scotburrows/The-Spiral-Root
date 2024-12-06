@@ -84,3 +84,4 @@ global.cloaked = false;
 global.has_windblade = false;
 global.has_phoenixburst = false;
 global.has_thundercaw = false;
+global.gworm_spawn = true;

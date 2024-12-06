@@ -7,6 +7,6 @@ if (y > other.y) {
 	}
 	else {
 		digging_away = true;
-		alarm_set(0, 100);
+		alarm_set(0, (run_speed / 1.5) * 128);
 	}
 }

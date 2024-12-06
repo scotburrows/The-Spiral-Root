@@ -7,6 +7,8 @@ if (keyboard_check(vk_enter) and can_speak) {
 		global.talked_to_egg_bird = true;
 	}
 	else if (global.num_eggs > 0) {
+		health += (other.max_health * 0.1);
+		health = clamp(health, 0, other.max_health);
 		if (!global.speed_upgrade1) {
 			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 4, line1: "Greetings, adventurer!", line2: "I see you have brought me one of my eggs!", line3: "I have increased your speed!", line4: "There are still four eggs remaining!"});
 			global.speed_upgrade1 = true;

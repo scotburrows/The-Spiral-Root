@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_worm_golden",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_worm","path":"objects/obj_worm/obj_worm.yy",},"propertyId":{"name":"run_speed","path":"objects/obj_worm/obj_worm.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_worm","path":"objects/obj_worm/obj_worm.yy",},"propertyId":{"name":"run_speed","path":"objects/obj_worm/obj_worm.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.85",},
   ],
   "parent":{
     "name":"Enemies",
