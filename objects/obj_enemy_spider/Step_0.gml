@@ -24,6 +24,11 @@ if (!downed and can_move) {
 				image_xscale = abs(image_xscale);
 			}
 			hspeed = image_xscale * move_speed;
+			//if (instance_place(x+(5*image_xscale), y-1, obj_tile)) {
+			//	hspeed = 0;
+			//	vspeed = -move_speed;
+			//	fall_speed = 0;
+			//}
 		}
 	}
 }
