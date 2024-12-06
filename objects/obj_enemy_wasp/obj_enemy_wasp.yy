@@ -39,7 +39,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"facing_right","filters":[],"listItems":[],"multiselect":false,"name":"facing_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"facing_left","filters":[],"listItems":[],"multiselect":false,"name":"facing_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

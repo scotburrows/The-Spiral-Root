@@ -2,7 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 
-randomize();
+//randomize();
 current_jumps = num_jumps;
 glide_time = 0;
 gliding = false;
@@ -12,7 +12,6 @@ can_eat = false; // change to false
 magic_charge = 0
 charge_display = false
 lives = 3;
-global.cloaked = false;
 can_cloak = true;
 
 instance_create_layer(x-sprite_xoffset, y-sprite_height, "Instances", obj_swordattack_1)
@@ -61,6 +60,8 @@ prev_vspeed = 0;
 
 alarm_set(1, 5)
 
+max_health = 100;
+
 global.completed_tutorial = false;
 global.switching_room = false;
 global.the_x = 384;
@@ -78,8 +79,4 @@ global.speed_upgrade2 = false;
 global.health_upgrade2 = false;
 global.talked_to_egg_bird = false;
 global.cloaking_unlocked = true;
-max_health = 100;
-
-global.has_gworm1 = false;
-global.has_gworm2 = false;
-global.has_gworm3 = false;
+global.cloaked = false;

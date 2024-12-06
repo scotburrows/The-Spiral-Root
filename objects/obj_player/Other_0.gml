@@ -11,7 +11,7 @@ if (instance_place(x, y, obj_roomborder)) {
 	}
 }
 else if (y > room_height) {
-	if (room != rm_start) {
+	if (room != rm_title) {
 		health -= 35;
 		if (health <= 0) {
 			instance_create_layer(x, y, "Instances", obj_gameover);
