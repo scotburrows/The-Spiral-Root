@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"The Spiral Root",
   "resources":[
@@ -136,6 +136,7 @@
     {"id":{"name":"spr_tempworm","path":"sprites/spr_tempworm/spr_tempworm.yy",},},
     {"id":{"name":"spr_tempwormgold","path":"sprites/spr_tempwormgold/spr_tempwormgold.yy",},},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_tree_tileset","path":"sprites/spr_tree_tileset/spr_tree_tileset.yy",},},
     {"id":{"name":"spr_wasp","path":"sprites/spr_wasp/spr_wasp.yy",},},
     {"id":{"name":"spr_worm","path":"sprites/spr_worm/spr_worm.yy",},},

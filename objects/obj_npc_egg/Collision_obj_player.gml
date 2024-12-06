@@ -21,7 +21,7 @@ if (keyboard_check(vk_enter) and can_speak) {
 			global.num_eggs--;
 		}
 		else if (!global.cloaking_unlocked) {
-			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 7, line1: "Greetings, adventurer!", line2: "I see you have brought me one of my eggs!", line3: "I have granted you the ability to use cloaking!", line4: "Hold Shift down near a spider or wasp and they won't notice you!", line5: "You can only use it for 5 seconds before it must recharge.", line6: "There are two eggs remaining!"});
+			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 7, line1: "Greetings, adventurer!", line2: "I see you have brought me one of my eggs!", line3: "I have granted you the ability to use cloaking!", line4: "Hold Shift down near a spider or wasp and they won't notice you!", line5: "You can only use it for 5 seconds before it must recharge.", line6: "Beware that it cannot protect you from one that has already seen you.", line7: "There are two eggs remaining!"});
 			global.cloaking_unlocked = true;
 			global.num_eggs--;
 		}
@@ -40,7 +40,7 @@ if (keyboard_check(vk_enter) and can_speak) {
 		}
 	}
 	else if (global.health_upgrade2) {
-		instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 2, line1: "Greetings, adventurer!", line2: "Thank you once more for bringing those eggs to me!"});
+		instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 2, line1: "Greetings, adventurer!", line2: "Thank you once more for bringing those delicious eggs to me!"});
 	}
 	else {
 		instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 3, line1: "Greetings, adventurer!", line2: "I see you have no eggs for me!", line3: "Please return when you do!"});

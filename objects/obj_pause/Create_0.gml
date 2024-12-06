@@ -5,3 +5,4 @@ if (instance_exists(obj_gravity)) {
 	obj_gravity.can_move = false;
 }
 quitting = false;
+current_y = 20;
