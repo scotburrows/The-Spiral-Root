@@ -42,6 +42,7 @@
   "name":"The Spiral Root",
   "resources":[
     {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
+    {"id":{"name":"obj_boss_projectile","path":"objects/obj_boss_projectile/obj_boss_projectile.yy",},},
     {"id":{"name":"obj_cheats","path":"objects/obj_cheats/obj_cheats.yy",},},
     {"id":{"name":"obj_damagedisplay","path":"objects/obj_damagedisplay/obj_damagedisplay.yy",},},
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
