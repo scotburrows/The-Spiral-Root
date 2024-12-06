@@ -8,6 +8,7 @@ if (attack_state = ATTACKS.ICE_LANCE){
 			magic_charge = 0
 			charge_display = false
 			can_move = true
+			audio_play_sound(snd_ice_spell, 1, false)
 		}
 	else{
 		alarm_set(2, 1)
@@ -23,6 +24,7 @@ else if (attack_state = ATTACKS.WINDBLADE)
 		magic_charge = 0
 		charge_display = false
 		can_move = true
+		audio_play_sound(snd_wind_spell, 1, false)
 	}
 	else{
 		alarm_set(2, 1)
@@ -36,6 +38,7 @@ else if (attack_state = ATTACKS.THUNDERCAW){
 			instance_create_layer(x, y, "Instances", obj_thundercaw)
 			magic_charge = 0
 			charge_display = false
+			audio_play_sound(snd_thunder_spell, 1, false)
 		}
 	else{
 		alarm_set(2, 1)
@@ -49,6 +52,7 @@ else if (attack_state = ATTACKS.PHOENIX_BURST){
 			instance_create_layer(x, y, "Instances", obj_phoenixburst)
 			magic_charge = 0
 			charge_display = false
+			audio_play_sound(snd_fire_spell, 1, false)
 		}
 	else{
 		alarm_set(2, 1)

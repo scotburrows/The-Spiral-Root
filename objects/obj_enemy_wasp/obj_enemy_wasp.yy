@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempwasp",
-    "path":"sprites/spr_tempwasp/spr_tempwasp.yy",
+    "name":"spr_wasp",
+    "path":"sprites/spr_wasp/spr_wasp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

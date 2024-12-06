@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if (can_be_hit) {
 	if (downed) {
+		audio_play_sound(snd_kill, 1, false)
 		instance_destroy();
 	}
 	

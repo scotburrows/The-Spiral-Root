@@ -50,8 +50,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempworm",
-    "path":"sprites/spr_tempworm/spr_tempworm.yy",
+    "name":"spr_worm",
+    "path":"sprites/spr_worm/spr_worm.yy",
   },
   "spriteMaskId":null,
   "visible":true,

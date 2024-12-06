@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_phoenixburst",
-    "path":"sprites/spr_temp_phoenixburst/spr_temp_phoenixburst.yy",
+    "name":"spr_phoenixburst",
+    "path":"sprites/spr_phoenixburst/spr_phoenixburst.yy",
   },
   "spriteMaskId":null,
   "visible":true,

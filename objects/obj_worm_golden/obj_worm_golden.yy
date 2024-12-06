@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempwormgold",
-    "path":"sprites/spr_tempwormgold/spr_tempwormgold.yy",
+    "name":"spr_gold_worm",
+    "path":"sprites/spr_gold_worm/spr_gold_worm.yy",
   },
   "spriteMaskId":null,
   "visible":true,

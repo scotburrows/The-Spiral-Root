@@ -52,8 +52,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempant",
-    "path":"sprites/spr_tempant/spr_tempant.yy",
+    "name":"spr_ant",
+    "path":"sprites/spr_ant/spr_ant.yy",
   },
   "spriteMaskId":null,
   "visible":true,

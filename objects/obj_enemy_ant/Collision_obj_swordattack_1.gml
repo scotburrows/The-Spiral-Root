@@ -4,6 +4,7 @@ if (other.sword_attacking = true)
 {
 	if (can_be_hit) {
 	if (downed) {
+		audio_play_sound(snd_kill, 1, false)
 		instance_destroy();
 	}
 	

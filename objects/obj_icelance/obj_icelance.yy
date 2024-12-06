@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempicelance",
-    "path":"sprites/spr_tempicelance/spr_tempicelance.yy",
+    "name":"spr_icelance",
+    "path":"sprites/spr_icelance/spr_icelance.yy",
   },
   "spriteMaskId":null,
   "visible":true,

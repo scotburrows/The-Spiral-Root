@@ -6,10 +6,12 @@ if (can_move) {
 		falling = true;
 		vspeed = -11;
 		player_movement = MOVEMENT.JUMPING
+		audio_play_sound(snd_jump, 1, false)
 	}
 	else if (current_jumps > 0) {
 		vspeed = -11;
 		current_jumps--;
+		audio_play_sound(snd_jump, 1, false)
 	}
 	else if (glide_time > 0) {
 		gliding = true;
