@@ -5,3 +5,7 @@
 event_inherited();
 
 can_chase = true;
+
+if (hanging_string == 0) {
+	hanging_string = y;
+}
