@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Jump/fly
 // You can write your code in this editor
 if (can_move) {
 	if (!falling) {
@@ -9,7 +9,7 @@ if (can_move) {
 		audio_play_sound(snd_jump, 1, false)
 	}
 	else if (current_jumps > 0) {
-		vspeed = -11;
+		vspeed = -8;
 		current_jumps--;
 		audio_play_sound(snd_jump, 1, false)
 	}

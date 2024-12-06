@@ -53,6 +53,7 @@
     {"id":{"name":"obj_enemy_spider","path":"objects/obj_enemy_spider/obj_enemy_spider.yy",},},
     {"id":{"name":"obj_enemy_wasp","path":"objects/obj_enemy_wasp/obj_enemy_wasp.yy",},},
     {"id":{"name":"obj_feather_fly","path":"objects/obj_feather_fly/obj_feather_fly.yy",},},
+    {"id":{"name":"obj_feather_glide","path":"objects/obj_feather_glide/obj_feather_glide.yy",},},
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
     {"id":{"name":"obj_gravity","path":"objects/obj_gravity/obj_gravity.yy",},},
     {"id":{"name":"obj_icelance","path":"objects/obj_icelance/obj_icelance.yy",},},
