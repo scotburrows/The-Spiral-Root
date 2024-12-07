@@ -17,7 +17,7 @@ if (other.sword_attacking = true)
 	
 	if (enemy_health <= 0 and !downed) {
 		downed = true;
-		sprite_index = spr_bird_idle;
+		image_speed = 0;
 		image_yscale = -1 * abs(image_yscale);
 		alarm_set(1, 60 * down_time);
 	}
