@@ -12,3 +12,6 @@ if (room == rm_game1 and (global.has_egg3 or !global.talked_to_egg_bird)) {
 if (room == rm_exit1 and global.has_egg4) {
 	instance_destroy();
 }
+if (room == rm_wasps1 and global.has_egg5) {
+	instance_destroy();
+}

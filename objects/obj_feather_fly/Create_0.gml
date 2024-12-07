@@ -15,3 +15,6 @@ if (room == rm_exit1 and global.has_flyfeather2) {
 if (room == rm_wasps2 and global.has_flyfeather3) {
 	instance_destroy();
 }
+if (room == rm_wasps1 and global.has_flyfeather4) {
+	instance_destroy();
+}

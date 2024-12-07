@@ -12,5 +12,8 @@ if (collectable) {
 	if (room == rm_wasps2) {
 		global.has_flyfeather3 = true;
 	}
+	if (room == rm_wasps1) {
+		global.has_flyfeather4 = true;
+	}
 	instance_destroy();
 }
