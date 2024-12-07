@@ -60,6 +60,7 @@
     {"id":{"name":"obj_icelance","path":"objects/obj_icelance/obj_icelance.yy",},},
     {"id":{"name":"obj_npc_egg","path":"objects/obj_npc_egg/obj_npc_egg.yy",},},
     {"id":{"name":"obj_npc_game_feather","path":"objects/obj_npc_game_feather/obj_npc_game_feather.yy",},},
+    {"id":{"name":"obj_npc_game_final","path":"objects/obj_npc_game_final/obj_npc_game_final.yy",},},
     {"id":{"name":"obj_npc_game_gworm","path":"objects/obj_npc_game_gworm/obj_npc_game_gworm.yy",},},
     {"id":{"name":"obj_npc_game_lore","path":"objects/obj_npc_game_lore/obj_npc_game_lore.yy",},},
     {"id":{"name":"obj_npc_game_spiders","path":"objects/obj_npc_game_spiders/obj_npc_game_spiders.yy",},},
