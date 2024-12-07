@@ -9,7 +9,7 @@ image_yscale = 2;
 image_blend = c_fuchsia;
 image_xscale = 2;
 
-if (room == rm_game1 and global.has_glidefeather21) {
+if (room == rm_game1 and global.has_glidefeather1) {
 	instance_destroy();
 }
 if (room == rm_wasps2 and global.has_glidefeather2) {

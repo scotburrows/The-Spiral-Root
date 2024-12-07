@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (enemy_health < 50 or (collision_ellipse(x+400, y-hanging_string, x-400, y+800, obj_player, false, true) and !global.cloaked)) {
+if (enemy_health < 50 or (collision_ellipse(x+400, y-hanging_string, x-400, y+600, obj_player, false, true) and !global.cloaked)) {
 	asleep = false;
 }
 

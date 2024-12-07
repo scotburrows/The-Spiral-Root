@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-image_xscale = -2;
-image_yscale = 2;
+image_xscale = -4;
+image_yscale = 4;

@@ -17,7 +17,11 @@ else {
 
 x = global.the_x;
 y = global.the_y;
-//camera_set_view_pos(view_camera[0], x, y);
+var cam_x = global.the_x;;
+cam_x = clamp(cam_x, 0, room_width - 1920);
+var cam_y = global.the_y;
+cam_y = clamp(cam_y, 0, room_height - 1080);
+camera_set_view_pos(view_camera[0], x, y);
 if (instance_exists(obj_swordattack_1)) {
 	obj_swordattack_1.x = x;
 	obj_swordattack_1.y = y;
