@@ -7,6 +7,9 @@ if (lives > 0 or room == rm_final) {
 	if (instance_exists(obj_gravity)) {
 		obj_gravity.can_move = true;
 	}
+	if (room != rm_final) {
+		audio_play_sound(snd_normal_music, 1, true);
+	}
 	room_restart();
 }
 else {
