@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (enemy_health > 0) {
+if (enemy_health > 0 and can_move) {
 	//speed = clamp(speed, 0, 0);
 	fall_speed = 0;
 	if (instance_exists(obj_player)) {
@@ -24,7 +24,7 @@ if (enemy_health > 0) {
 	//x = initial_x;
 	//y = initial_y;
 }
-else {
+else if (can_move) {
 	downed = true;
 	hspeed = 0;
 	fall_speed = 0.2;
@@ -32,4 +32,7 @@ else {
 	if (!instance_exists(obj_victory)) {
 		instance_create_layer(0, 0, "Instances", obj_victory);
 	}
+}
+else {
+	speed = 0;
 }

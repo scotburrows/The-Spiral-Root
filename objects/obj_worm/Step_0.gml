@@ -20,6 +20,9 @@ if (!digging_away and can_move) {
 		image_xscale = -image_xscale;
 		hspeed = -hspeed;
 	}
+	else {
+		hspeed = image_xscale * move_speed;
+	}
 }
 else if (can_move) {
 	hspeed = run_speed / 1.5;

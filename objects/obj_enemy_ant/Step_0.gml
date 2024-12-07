@@ -8,3 +8,6 @@ if ((!falling and ((image_xscale > 0) and !instance_place(x+64, y+65, obj_tile))
 	image_xscale = -image_xscale;
 	hspeed = -hspeed;
 }
+else if (can_move) {
+	hspeed = image_xscale * move_speed;
+}
