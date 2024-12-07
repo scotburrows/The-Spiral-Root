@@ -10,6 +10,7 @@
   "name":"obj_enemy_grasshopper",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gravity","path":"objects/obj_gravity/obj_gravity.yy",},"propertyId":{"name":"fall_speed","path":"objects/obj_gravity/obj_gravity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"propertyId":{"name":"damage_dealt","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"18",},
   ],
   "parent":{
     "name":"Enemies",

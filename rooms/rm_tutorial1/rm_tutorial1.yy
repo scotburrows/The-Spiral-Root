@@ -48,6 +48,7 @@
     {"name":"inst_43059BB4","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},
     {"name":"inst_68D4D721","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},
     {"name":"inst_3CEE0FAD","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},
+    {"name":"inst_31B51129","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -103,6 +104,7 @@
         {"$GMRInstance":"v1","%Name":"inst_43059BB4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43059BB4","objectId":{"name":"obj_boss_projectile","path":"objects/obj_boss_projectile/obj_boss_projectile.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":1376.0,},
         {"$GMRInstance":"v1","%Name":"inst_68D4D721","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68D4D721","objectId":{"name":"obj_enemy_wasp","path":"objects/obj_enemy_wasp/obj_enemy_wasp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":1568.0,},
         {"$GMRInstance":"v1","%Name":"inst_3CEE0FAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CEE0FAD","objectId":{"name":"obj_enemy_spider","path":"objects/obj_enemy_spider/obj_enemy_spider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1440.0,"y":1408.0,},
+        {"$GMRInstance":"v1","%Name":"inst_31B51129","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31B51129","objectId":{"name":"obj_enemy_kingbeetle","path":"objects/obj_enemy_kingbeetle/obj_enemy_kingbeetle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":1536.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294949444,"depth":200,"effectEnabled":true,"effectType":"_effect_windblown_particles","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
         {"name":"param_sprite","type":2,"value":"_effect_windblown_particles_leaf_sprite",},

@@ -13,8 +13,9 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gravity","path":"objects/obj_gravity/obj_gravity.yy",},"propertyId":{"name":"fall_speed","path":"objects/obj_gravity/obj_gravity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"propertyId":{"name":"health_recover","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"propertyId":{"name":"down_time","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.25",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"propertyId":{"name":"down_time","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"propertyId":{"name":"enemy_health","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_ant","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"propertyId":{"name":"damage_dealt","path":"objects/obj_enemy_ant/obj_enemy_ant.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"22",},
   ],
   "parent":{
     "name":"Enemies",
