@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (can_move) {
-	image_xscale = -1;
+	image_xscale = -abs(image_xscale);
 	hspeed = -move_speed;
 	player_facing = DIRECTION.LEFT
 	player_movement = MOVEMENT.MOVING_LEFT

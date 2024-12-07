@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (health > 0 and !instance_exists(obj_victory)) {
 	draw_self();
-	if (!instance_exists(obj_dialogue)) {
+	if (!instance_exists(obj_dialogue) and !instance_exists(obj_pause)) {
 		draw_healthbar(camera_get_view_x(view_camera[0]) + 100, camera_get_view_y(view_camera[0]) + 100, camera_get_view_x(view_camera[0]) + 600, camera_get_view_y(view_camera[0]) + 200, (health / max_health) * 100, c_black, c_red, c_green, 0, true, false);
 		if (room != rm_final) {
 			draw_text_transformed(camera_get_view_x(view_camera[0]) + 100, camera_get_view_y(view_camera[0]) + 215, "Lives: " + string(lives), 0.3, 0.3, 0);

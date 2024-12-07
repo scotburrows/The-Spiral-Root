@@ -2,10 +2,8 @@
 // You can write your code in this editor
 event_inherited();
 
-if (audio_is_playing(snd_menu_music)) {
-	audio_stop_sound(snd_menu_music);
-}
-audio_play_sound(snd_normal_music, 1, true);
+image_xscale = (128 / 186);
+image_yscale = (128 / 186);
 
 //randomize();
 current_jumps = num_jumps;
@@ -93,3 +91,6 @@ global.has_flyfeather1 = false;
 global.has_flyfeather2 = false;
 global.has_flyfeather3 = false;
 global.has_flyfeather4 = false;
+global.has_glidefeather1 = false;
+global.has_glidefeather2 = false;
+global.has_glidefeather3 = false;

@@ -1,4 +1,4 @@
-/// @description Gameover
+/// @description Pause
 // You can write your code in this editor
 draw_set_alpha(overlay_alpha);
 draw_set_color(c_black);
