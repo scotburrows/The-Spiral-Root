@@ -1,7 +1,7 @@
 /// @description Give jumps or glide time
 // You can write your code in this editor
 if (collectable) {
-	other.glide_time += 45;
+	other.glide_time += 60;
 	if (room == rm_game1) {
 		global.has_glidefeather1 = true;
 	}

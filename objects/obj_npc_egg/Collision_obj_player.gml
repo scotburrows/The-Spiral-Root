@@ -9,7 +9,7 @@ if (keyboard_check(vk_enter) and can_speak) {
 	else if (global.num_eggs > 0) {
 		health += (other.max_health * 0.1);
 		health = clamp(health, 0, other.max_health);
-		var next_egg = "nowhere!";
+		var next_egg = "with you!";
 		if (!global.has_egg3) {
 			next_egg = "near the entrance of this place!";
 		}
@@ -17,7 +17,7 @@ if (keyboard_check(vk_enter) and can_speak) {
 			next_egg = "in the Spiders' Den!";
 		}
 		else if (!global.has_egg5) {
-			next_egg = "in the Wasp's Nest!";
+			next_egg = "in the Wasp Nest!";
 		}
 		else if (!global.has_egg2) {
 			next_egg = "very close by!";
@@ -32,7 +32,7 @@ if (keyboard_check(vk_enter) and can_speak) {
 			other.move_speed = 10.5;
 		}
 		else if (!global.health_upgrade1) {
-			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 4, line1: "Greetings, adventurer!", line2: "I see you have brought me one of my eggs!", line3: "I have increased your health!", line4: "There are three eggs remaining!"});
+			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 5, line1: "Greetings, adventurer!", line2: "I see you have brought me one of my eggs!", line3: "I have increased your health!", line4: "There are three eggs remaining!", line5: "I believe there may be an egg "+next_egg});
 			global.health_upgrade1 = true;
 			other.max_health = 150;
 			health *= 1.5;
