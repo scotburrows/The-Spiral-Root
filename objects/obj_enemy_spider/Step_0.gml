@@ -15,7 +15,7 @@ if (!downed and can_move) {
 	}
 	else {
 		fall_speed = 0.3;
-		sprite_index = spr_tempspider2;
+		sprite_index = spr_spider;
 		if (collision_circle(x, y, 500, obj_player, false, true) and !falling and can_chase) {
 			if (obj_player.x <= x) {
 				image_xscale = -abs(image_xscale);

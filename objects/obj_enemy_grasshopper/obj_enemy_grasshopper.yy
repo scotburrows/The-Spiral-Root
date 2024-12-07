@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempgrasshopper",
-    "path":"sprites/spr_tempgrasshopper/spr_tempgrasshopper.yy",
+    "name":"spr_grasshopper",
+    "path":"sprites/spr_grasshopper/spr_grasshopper.yy",
   },
   "spriteMaskId":null,
   "visible":true,

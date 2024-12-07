@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempbeetle",
-    "path":"sprites/spr_tempbeetle/spr_tempbeetle.yy",
+    "name":"spr_beetle",
+    "path":"sprites/spr_beetle/spr_beetle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

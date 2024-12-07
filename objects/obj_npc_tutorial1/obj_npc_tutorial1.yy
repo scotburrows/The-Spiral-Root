@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempbird",
-    "path":"sprites/spr_tempbird/spr_tempbird.yy",
+    "name":"spr_bird_idle",
+    "path":"sprites/spr_bird_idle/spr_bird_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

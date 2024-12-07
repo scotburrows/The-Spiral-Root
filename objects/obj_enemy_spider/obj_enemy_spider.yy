@@ -46,8 +46,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempspider1",
-    "path":"sprites/spr_tempspider1/spr_tempspider1.yy",
+    "name":"spr_spider_sleep",
+    "path":"sprites/spr_spider_sleep/spr_spider_sleep.yy",
   },
   "spriteMaskId":null,
   "visible":true,

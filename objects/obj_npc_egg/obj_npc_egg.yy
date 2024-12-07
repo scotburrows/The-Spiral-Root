@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempnpc_egg",
-    "path":"sprites/spr_tempnpc_egg/spr_tempnpc_egg.yy",
+    "name":"spr_npc1",
+    "path":"sprites/spr_npc1/spr_npc1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

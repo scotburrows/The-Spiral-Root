@@ -50,8 +50,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempkingbeetle",
-    "path":"sprites/spr_tempkingbeetle/spr_tempkingbeetle.yy",
+    "name":"spr_boss_beetle",
+    "path":"sprites/spr_boss_beetle/spr_boss_beetle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

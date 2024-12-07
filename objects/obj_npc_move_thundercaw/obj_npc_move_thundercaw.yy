@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempnpc_moves",
-    "path":"sprites/spr_tempnpc_moves/spr_tempnpc_moves.yy",
+    "name":"spr_npc2",
+    "path":"sprites/spr_npc2/spr_npc2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
