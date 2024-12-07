@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempfeather",
-    "path":"sprites/spr_tempfeather/spr_tempfeather.yy",
+    "name":"spr_feather",
+    "path":"sprites/spr_feather/spr_feather.yy",
   },
   "spriteMaskId":null,
   "visible":true,

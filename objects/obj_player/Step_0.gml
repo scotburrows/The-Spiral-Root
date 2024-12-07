@@ -4,6 +4,22 @@
 // Inherit the parent event
 event_inherited();
 
+if (health <= 0) {
+	sprite_index = spr_bird_death;
+}
+else if (gliding) {
+	sprite_index = spr_bird_glide;
+}
+else if (hspeed = 0 and vspeed = 0) {
+	sprite_index = spr_bird_idle;
+}
+else if (vspeed != 0 and !gliding) {
+	sprite_index = spr_bird_jump;
+}
+else if (hspeed != 0 and !gliding) {
+	sprite_index = spr_bird_walk;
+}
+
 if (!instance_exists(obj_swordattack_1)) {
 	instance_create_layer(x-sprite_xoffset, y-sprite_height, "Instances", obj_swordattack_1)
 	sword_rotation_distance = 0

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempegg",
-    "path":"sprites/spr_tempegg/spr_tempegg.yy",
+    "name":"spr_egg",
+    "path":"sprites/spr_egg/spr_egg.yy",
   },
   "spriteMaskId":null,
   "visible":true,

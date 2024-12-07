@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+image_xscale = 2;
 
 if (room == rm_spiders_feather and global.has_flyfeather1) {
 	instance_destroy();
