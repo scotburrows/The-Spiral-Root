@@ -16,6 +16,10 @@ draw_text_transformed(camera_get_view_x(view_camera[0]) + 20, current_y, "ENTER 
 current_y += 45;
 draw_text_transformed(camera_get_view_x(view_camera[0]) + 20, current_y, "WASD - Move & Jump", 0.2, 0.2, 0);
 current_y += 45;
+if (obj_player.glide_time > 0) {
+	draw_text_transformed(camera_get_view_x(view_camera[0]) + 20, current_y, "W - Glide", 0.2, 0.2, 0);
+	current_y += 45;
+}
 draw_text_transformed(camera_get_view_x(view_camera[0]) + 20, current_y, "J - Sword Attack", 0.2, 0.2, 0);
 current_y += 45;
 draw_text_transformed(camera_get_view_x(view_camera[0]) + 20, current_y, "L Neutral - Ice Lance", 0.2, 0.2, 0);

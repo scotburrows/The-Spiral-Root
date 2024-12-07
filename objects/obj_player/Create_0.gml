@@ -78,10 +78,13 @@ global.health_upgrade1 = false;
 global.speed_upgrade2 = false;
 global.health_upgrade2 = false;
 global.talked_to_egg_bird = false;
-global.cloaking_unlocked = true;
+global.cloaking_unlocked = false;
 global.cloaked = false;
 
 global.has_windblade = false;
 global.has_phoenixburst = false;
 global.has_thundercaw = false;
-global.gworm_spawn = true;
+global.has_flyfeather1 = false;
+global.has_flyfeather2 = false;
+global.has_flyfeather3 = false;
+global.has_flyfeather4 = false;

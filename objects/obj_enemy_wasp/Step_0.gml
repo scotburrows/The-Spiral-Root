@@ -1,7 +1,33 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (can_move and downed) {
+	if (falling) {
+		if (vspeed < fall_speed * 70) {
+			vspeed += fall_speed;
+		}
+	}
+	
+	if (!instance_place(x, y+1, obj_tile)) {
+		falling = true;
+	}
+	else if (falling) {
+		vspeed = 0;
+		falling = false;
+	}
+	
+	if (instance_place(x, y-1, obj_tile)) {
+		y -= vspeed;
+		vspeed = 0;
+	}
+}
+else {
+	hspeed = 0;
+	vspeed = 0;
+}
+
 if (!downed and can_move) {
+	fall_speed = 0;
 	y += sin(hover++ * 0.05);
 
 	if (collision_circle(x, y, 500, obj_player, false, true) and !global.cloaked) {
