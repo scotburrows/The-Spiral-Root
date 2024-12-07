@@ -23,7 +23,12 @@ in_attack_position = false
 follow_speed = 0
 
 
-/*
+if (!persistent)
+{
+    persistent = true;
+}
+
+
 if (instance_exists(obj_player)) {
 initial_xscale = obj_player.image_xscale;
 initial_point_x = obj_player.x;

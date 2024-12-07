@@ -30,7 +30,7 @@ bob_min_height = resting_pointy + 3
 
 
 
-if (distance_to_point(resting_pointx, resting_pointy) > 10 && sword_attacking == false)
+if (distance_to_point(resting_pointx, resting_pointy) > 5 && sword_attacking == false)
 {
 	direction = point_direction(x, y, resting_pointx, resting_pointy)
 	follow_speed = follow_speed + 0.1;
@@ -47,7 +47,7 @@ if (distance_to_point(resting_pointx, resting_pointy) > 10 && sword_attacking ==
 }
 
 
-if (obj_player.attack_state = ATTACKS.BASIC_ATTACK && in_attack_position == false) {
+if (sword_attacking == true && in_attack_position == false) {
 	
 	if (distance_to_point(attacking_pointx, attacking_pointy) > 5) {
 		direction = point_direction(x, y, attacking_pointx, attacking_pointy)
@@ -55,7 +55,7 @@ if (obj_player.attack_state = ATTACKS.BASIC_ATTACK && in_attack_position == fals
 	} else {
 		in_attack_position = true
 		alarm_set(0, 1)
-		obj_player.attack_state = ATTACKS.EMPTY
+		
 	}
 }
 	
