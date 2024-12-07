@@ -9,3 +9,4 @@ else {
 
 x = global.the_x;
 y = global.the_y;
+camera[0]

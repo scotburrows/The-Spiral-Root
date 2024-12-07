@@ -3,5 +3,12 @@
 
 // Inherit the parent event
 event_inherited();
-image_xscale = -2;
-image_yscale = 2;
+
+if (instance_exists(obj_player)) {
+	if (obj_player.x < x) {
+		image_xscale = -1;
+	}
+	else {
+		image_xscale = 1;
+	}
+}
