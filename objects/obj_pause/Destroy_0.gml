@@ -3,3 +3,4 @@
 if (instance_exists(obj_gravity)) {
 	obj_gravity.can_move = true;
 }
+audio_resume_all();
