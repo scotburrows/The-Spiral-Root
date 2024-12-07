@@ -6,3 +6,5 @@ if (instance_exists(obj_gravity)) {
 }
 quitting = false;
 current_y = 20;
+
+audio_pause_all();

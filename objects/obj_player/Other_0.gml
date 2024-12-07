@@ -12,6 +12,7 @@ if (instance_place(x, y, obj_roomborder)) {
 }
 else if (y > room_height) {
 	if (room != rm_title) {
+		audio_play_sound(snd_hurt, 1, false);
 		health -= 35;
 		if (health <= 0) {
 			instance_create_layer(x, y, "Instances", obj_gameover);
