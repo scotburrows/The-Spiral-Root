@@ -103,6 +103,7 @@
     {"id":{"name":"rm_spiders2","path":"rooms/rm_spiders2/rm_spiders2.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"rm_tutorial1","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},},
+    {"id":{"name":"rm_wasps1","path":"rooms/rm_wasps1/rm_wasps1.yy",},},
     {"id":{"name":"rm_wasps2","path":"rooms/rm_wasps2/rm_wasps2.yy",},},
     {"id":{"name":"scr_damageprint","path":"scripts/scr_damageprint/scr_damageprint.yy",},},
     {"id":{"name":"snd_attack","path":"sounds/snd_attack/snd_attack.yy",},},
@@ -195,6 +196,7 @@
     {"roomId":{"name":"rm_exit1","path":"rooms/rm_exit1/rm_exit1.yy",},},
     {"roomId":{"name":"rm_exit2","path":"rooms/rm_exit2/rm_exit2.yy",},},
     {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
+    {"roomId":{"name":"rm_wasps1","path":"rooms/rm_wasps1/rm_wasps1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

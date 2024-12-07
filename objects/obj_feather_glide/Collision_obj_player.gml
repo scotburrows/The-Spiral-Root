@@ -8,5 +8,8 @@ if (collectable) {
 	if (room == rm_wasps2) {
 		global.has_glidefeather2 = true;
 	}
+	if (room == rm_exit2) {
+		global.has_glidefeather3 = true;
+	}
 	instance_destroy();
 }
