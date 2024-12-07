@@ -17,6 +17,7 @@ if (can_be_hit) {
 	
 	if (enemy_health <= 0 and !downed) {
 		downed = true;
+		image_speed = 0;
 		image_yscale = -1 * abs(image_yscale);
 		alarm_set(1, 60 * down_time);
 	}

@@ -8,7 +8,7 @@ if (enemy_health > 0 and can_move) {
 	//speed = clamp(speed, 0, 0);
 	fall_speed = 0;
 	if (instance_exists(obj_player)) {
-		if (obj_player.y < 704) {
+		if ((obj_player.y < 704) or enemy_health < 200) {
 			direction = point_direction(x, y, initial_x, initial_y - 300);
 			speed = move_speed;
 		}

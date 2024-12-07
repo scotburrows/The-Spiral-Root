@@ -5,5 +5,6 @@ if (!downed) {
 	audio_play_sound(snd_hurt, 1, false)
 	if (health <= 0) {
 		instance_create_layer(x, y, "Instances", obj_gameover);
+		other.sprite_index = spr_bird_death;
 	}
 }
