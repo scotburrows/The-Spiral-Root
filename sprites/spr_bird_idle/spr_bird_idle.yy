@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":127,
   "bbox_left":0,
-  "bbox_right":156,
+  "bbox_right":194,
   "bbox_top":23,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -26,7 +26,7 @@
   ],
   "name":"spr_bird_idle",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -98,5 +98,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":186,
+  "width":195,
 }

@@ -21,6 +21,7 @@ draw_text_transformed(20, 110, "WASD - Move & Jump", 0.2, 0.2, 0);
 draw_text_transformed(20, 155, "J - Sword Attacks", 0.2, 0.2, 0);
 draw_text_transformed(20, 200, "L - Birdsong Attacks", 0.2, 0.2, 0);
 draw_text_transformed(20, 245, "ESC - Pause Game", 0.2, 0.2, 0);
+draw_text_transformed(20, 290, "R - Reload Room", 0.2, 0.2, 0);
 
 draw_set_halign(fa_right);
 draw_text_transformed(room_width - 20, 20, "Game created by:", 0.2, 0.2, 0);
