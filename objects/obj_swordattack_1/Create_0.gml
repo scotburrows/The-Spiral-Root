@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_xscale = 2.5
-image_yscale = 2.5
+image_xscale = 4
+image_yscale = 4
 
 resting_pointx = obj_player.x - 64
 resting_pointy = obj_player.y - 64
@@ -21,12 +21,6 @@ sword_attacking = false
 in_attack_position = false
 
 follow_speed = 0
-
-
-if (!persistent)
-{
-    persistent = true;
-}
 
 
 if (instance_exists(obj_player)) {

@@ -33,7 +33,7 @@ bob_min_height = resting_pointy + 3
 if (distance_to_point(resting_pointx, resting_pointy) > 5 && sword_attacking == false)
 {
 	direction = point_direction(x, y, resting_pointx, resting_pointy)
-	follow_speed = follow_speed + 0.1;
+	follow_speed = follow_speed + 0.5;
 	if follow_speed > 9 { follow_speed = 9;}
 	speed = follow_speed
 	
@@ -51,7 +51,7 @@ if (sword_attacking == true && in_attack_position == false) {
 	
 	if (distance_to_point(attacking_pointx, attacking_pointy) > 5) {
 		direction = point_direction(x, y, attacking_pointx, attacking_pointy)
-		speed = 5
+		speed = 10
 	} else {
 		in_attack_position = true
 		alarm_set(0, 1)
