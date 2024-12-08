@@ -57,7 +57,7 @@ if (keyboard_check(vk_enter) and can_speak) {
 			other.move_speed = 15;
 		}
 	}
-	else if (global.health_upgrade2) {
+	else if (global.speed_upgrade2) {
 		instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 2, line1: "Greetings, adventurer!", line2: "Thank you once more for bringing those delicious eggs to me!"});
 	}
 	else {

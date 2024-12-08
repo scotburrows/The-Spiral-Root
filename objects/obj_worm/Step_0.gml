@@ -19,15 +19,19 @@ if (!digging_away and can_move) {
 		hspeed = image_xscale * move_speed;
 	}
 
-	if ((!falling and (!instance_place(x+(66*image_xscale), y+65, obj_tile)))) {
+	if ((!falling and (!instance_place(x+(hspeed*image_xscale), y+65, obj_tile)))) {
 		if (!running_away) {
 			image_xscale = -image_xscale;
 			hspeed = -hspeed;
 		}
 		else {
+			digging_away = true;
 			hspeed = run_speed / 1.5;
 		}
 	}
+}
+else {
+	hspeed = run_speed / 1.5;
 }
 
 //if ((!falling and instance_place(x+hspeed, y, obj_tile))) {
