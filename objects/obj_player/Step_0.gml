@@ -27,6 +27,10 @@ if (!instance_exists(obj_swordattack_1)) {
 	right_sword_swing = true
 }
 
+//if (!instance_exists(obj_player_sprite)) {
+	//instance_create_layer(x, y, "Instances", obj_player_sprite);
+//}
+
 if (!falling) {
 	current_jumps = num_jumps;
 	glide_time_remaining = glide_time;

@@ -60,7 +60,7 @@ if (!downed and can_move) {
 	}
 }
 else {
-	speed = 0;
+	hspeed = 0;
 	fall_speed = 0.2;
 }
 

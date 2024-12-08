@@ -8,3 +8,6 @@ if (can_use) {
 	global.has_egg4 = true;
 	global.has_egg5 = true;
 }
+else if (instance_exists(obj_player)) {
+	//obj_player.x += 64;
+}

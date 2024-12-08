@@ -18,3 +18,6 @@ if (room == rm_wasps2 and global.has_glidefeather2) {
 if (room == rm_exit2 and global.has_glidefeather3) {
 	instance_destroy();
 }
+if (room == rm_spiders1 and global.has_glidefeather4) {
+	instance_destroy();
+}

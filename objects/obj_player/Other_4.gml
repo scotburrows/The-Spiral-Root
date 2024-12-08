@@ -5,6 +5,9 @@ if (room != rm_tutorial1 and room != rm_game0 and !audio_is_playing(snd_normal_m
 	if (audio_is_playing(snd_menu_music)) {
 		audio_stop_sound(snd_menu_music);
 	}
+	if (audio_is_playing(snd_boss_music)) {
+		audio_stop_sound(snd_boss_music);
+	}
 	audio_play_sound(snd_normal_music, 1, true);
 }
 

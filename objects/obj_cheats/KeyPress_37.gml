@@ -6,3 +6,6 @@ if (can_use and instance_exists(obj_player)) {
 	global.has_thundercaw = true;
 	global.has_windblade = true;
 }
+else if (instance_exists(obj_player)) {
+	//obj_player.x -= 64;
+}

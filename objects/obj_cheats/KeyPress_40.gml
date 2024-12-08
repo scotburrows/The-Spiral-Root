@@ -4,3 +4,6 @@ if (can_use and instance_exists(obj_player)) {
 	obj_player.num_jumps = 4;
 	obj_player.glide_time = 180;
 }
+else if (instance_exists(obj_player)) {
+	//obj_player.y += 64;
+}

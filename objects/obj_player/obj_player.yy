@@ -68,6 +68,9 @@
     "name":"spr_bird_idle",
     "path":"sprites/spr_bird_idle/spr_bird_idle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_tempbird",
+    "path":"sprites/spr_tempbird/spr_tempbird.yy",
+  },
   "visible":true,
 }

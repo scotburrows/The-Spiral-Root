@@ -3,8 +3,8 @@
  if (hit_refreshed == true) {
 	
 	if (other.downed) {
-		audio_play_sound(snd_kill, 1, false)
-		instance_destroy(other);
+		//audio_play_sound(snd_kill, 1, false)
+		//instance_destroy(other);
 	}
 	
 	var damage_text = instance_create_layer(x,y,"Instances", obj_damagedisplay);
@@ -23,12 +23,14 @@
 		other.downed = true;
 		other.image_speed = 0;
 		other.image_yscale = -1 * abs(other.image_yscale);
+		other.alarm[1] = 60*other.down_time;
 	}
 	
 	hit_refreshed = false
 	time_between_hits = 0
 	
 	other.can_be_hit = false;
+	other.alarm[0] = 3;
 	
 	
 	

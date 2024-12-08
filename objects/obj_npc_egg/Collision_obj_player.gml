@@ -22,7 +22,7 @@ if (keyboard_check(vk_enter) and can_speak) {
 		else if (!global.has_egg2) {
 			next_egg = "very close by!";
 		}
-		else if (!global.has_egg2) {
+		else if (!global.has_egg4) {
 			next_egg = "near the exit of this place!";
 		}
 		if (!global.speed_upgrade1) {
@@ -44,14 +44,14 @@ if (keyboard_check(vk_enter) and can_speak) {
 			global.num_eggs--;
 		}
 		else if (!global.health_upgrade2) {
-			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 5, line1: "Greetings, adventurer!", line2: "I see you have brought me one of my eggs!", line3: "I have increased your health once more!", line4: "There is only one egg remaining!", line8: "I believe the final egg may be "+next_egg});
+			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 5, line1: "Greetings, adventurer!", line2: "I see you have brought me one of my eggs!", line3: "I have increased your health once more!", line4: "There is only one egg remaining!", line5: "I believe the final egg may be "+next_egg});
 			global.health_upgrade2 = true;
 			other.max_health = 200;
 			health *= (4/3);
 			global.num_eggs--;
 		}
 		else if (!global.speed_upgrade2) {
-			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 4, line1: "Greetings, adventurer!", line2: "I see you have brought me my final egg!", line3: "I have increased your speed once more!", line4: "I thank you greatly for your generosity.", line5: "Welp! Time to chow down!"});
+			instance_create_layer(0, 0, "Instances", obj_dialogue, {num_lines: 5, line1: "Greetings, adventurer!", line2: "I see you have brought me my final egg!", line3: "I have increased your speed once more!", line4: "I thank you greatly for your generosity.", line5: "Welp! Time to chow down!"});
 			global.speed_upgrade2 = true;
 			global.num_eggs--;
 			other.move_speed = 15;

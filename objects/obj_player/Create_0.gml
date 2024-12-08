@@ -94,3 +94,4 @@ global.has_flyfeather4 = false;
 global.has_glidefeather1 = false;
 global.has_glidefeather2 = false;
 global.has_glidefeather3 = false;
+global.has_glidefeather4 = false;
